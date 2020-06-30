@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import bug from "./bug.svg";
+import bug from "./bug.png";
 import acmLogo from "./acmLogo.svg";
 import vvceLogo from "./vvceLogo.svg";
 
