@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import bug from "./bug.png";
-import acmLogo from "./acmLogo.svg";
-import vvceLogo from "./vvceLogo.svg";
 
 class Main extends Component {
   constructor() {
@@ -16,7 +13,7 @@ class Main extends Component {
       <div>
         <div className="main">
           <div className="bug slide-in-elliptic-top-fwd">
-            <img src={bug} alt="bug"></img>
+            <img src={require("./bug.png")} alt="bug"></img>
             <h1 className="slide-in-blurred-bottom">BugFix</h1>
           </div>
           <div className="details slide-in-blurred-bottom">
@@ -29,10 +26,10 @@ class Main extends Component {
         <div className="logos">
           <ul>
             <li>
-              <img src={vvceLogo} alt="vvce"></img>
+              <img src={require("./vvceLogo.svg")} alt="vvceLogo"></img>
             </li>
             <li>
-              <img src={acmLogo} alt="acm"></img>
+              <img src={require("./acmLogo.svg")} alt="acmLogo"></img>
             </li>
           </ul>
         </div>
