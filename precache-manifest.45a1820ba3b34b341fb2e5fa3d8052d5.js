@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5b824ff66ea980e3f5d893eab0da3f4",
+    "revision": "e914d9eb0bf39780593d18cfa0352a1b",
     "url": "/bugfix/index.html"
   },
   {
-    "revision": "4f3114ffe178ec9d4b63",
-    "url": "/bugfix/static/css/main.d6223b97.chunk.css"
+    "revision": "e7eb060353fc39156a8d",
+    "url": "/bugfix/static/css/main.0ab810eb.chunk.css"
   },
   {
     "revision": "d7890a5890c1bb502d97",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bugfix/static/js/2.2f1a1896.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f3114ffe178ec9d4b63",
-    "url": "/bugfix/static/js/main.ff41e057.chunk.js"
+    "revision": "e7eb060353fc39156a8d",
+    "url": "/bugfix/static/js/main.39b8fbfd.chunk.js"
   },
   {
     "revision": "a9074b7d886c7085e982",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bugfix/static/media/acmLogo.22000425.svg"
   },
   {
-    "revision": "0bf171a2f3ba91aff47084651b9d5651",
-    "url": "/bugfix/static/media/bug.0bf171a2.svg"
+    "revision": "db0ad31c21fa27cfbb1a6b27de06af9e",
+    "url": "/bugfix/static/media/bug.db0ad31c.png"
   },
   {
     "revision": "f6b04bf767985c7492aea76d8e8fb6f5",
