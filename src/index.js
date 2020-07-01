@@ -1,40 +1,57 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
 class Main extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      bug: "/images/bug.gif",
+    };
   }
 
   render() {
     return (
-      <div>
+      <Fragment>
         <div className="main">
           <div className="bug slide-in-elliptic-top-fwd">
-            <img src={require("./bug.gif")} alt="bug" />
+            <img src={`/images/bug.gif`} alt="bugImage" />
             <h1 className="slide-in-blurred-bottom">BugFix</h1>
           </div>
           <div className="details slide-in-blurred-bottom">
             <h2>Squash bugs in code!</h2>
-            <a href="https://forms.gle/nGuxmLWthdBdrhn7A">
+            <a
+              href="https://forms.gle/nGuxmLWthdBdrhn7A"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="register">Register Now</button>
             </a>
+            <div className="logos">
+              <ul>
+                <li>
+                  <a
+                    href="https://vvce.ac.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={`/images/2.png`} alt="vvceLogo" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://vvce.acm.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={`/images/1.png`} alt="acmLogo" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="logos">
-          <ul>
-            <li>
-              <img src={require("./vvceLogo.png")} alt="vvceLogo" />
-            </li>
-            <li>
-              <img src={require("./acmLogo.png")} alt="acmLogo" />
-            </li>
-          </ul>
-        </div>
-        <p id="version">v1.6</p>
-      </div>
+      </Fragment>
     );
   }
 }
