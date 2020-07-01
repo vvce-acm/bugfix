@@ -60,12 +60,6 @@ h2 {
   transition: all 0.2s ease-in-out;
 }
 
-.bug:hover {
-  width: 26em;
-  height: 26em;
-  overflow: hidden;
-}
-
 .bug-container {
   position: relative;
   width: initial;
@@ -80,7 +74,7 @@ h2 {
 
 .bug > h1 {
   color: rgb(238, 238, 238);
-  text-shadow: 0px 5px 20px #60b6a5;
+  text-shadow: 0px 2px 20px #a3f8e7;
   position: absolute;
   bottom: 1.4em;
   text-align: center;
@@ -228,6 +222,14 @@ button:focus {
     filter: saturate(110%);
     font-weight: 600;
   }
+
+  #version {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 40%;
+    padding: 0.2em;
+  }
 }
 
 /* ANIMISTA STUFF */
@@ -322,4 +324,12 @@ button:focus {
     filter: blur(0);
     opacity: 1;
   }
+}
+
+#version {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 40%;
+  padding: 0.2em;
 }

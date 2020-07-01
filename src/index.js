@@ -13,7 +13,7 @@ class Main extends Component {
       <div>
         <div className="main">
           <div className="bug slide-in-elliptic-top-fwd">
-            <img src={require("./bug.png")} alt="bug"></img>
+            <img src={require("./bug.gif")} alt="bug" />
             <h1 className="slide-in-blurred-bottom">BugFix</h1>
           </div>
           <div className="details slide-in-blurred-bottom">
@@ -26,13 +26,14 @@ class Main extends Component {
         <div className="logos">
           <ul>
             <li>
-              <img src={require("./vvceLogo.svg")} alt="vvceLogo"></img>
+              <img src={require("./vvceLogo.png")} alt="vvceLogo" />
             </li>
             <li>
-              <img src={require("./acmLogo.svg")} alt="acmLogo"></img>
+              <img src={require("./acmLogo.png")} alt="acmLogo" />
             </li>
           </ul>
         </div>
+        <p id="version">v1.6</p>
       </div>
     );
   }
