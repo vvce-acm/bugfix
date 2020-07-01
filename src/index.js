@@ -15,7 +15,10 @@ class Main extends Component {
       <Fragment>
         <div className="main">
           <div className="bug slide-in-elliptic-top-fwd">
-            <img src={`/images/bug.gif`} alt="bugImage" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/bug.gif`}
+              alt="bugImage"
+            />
             <h1 className="slide-in-blurred-bottom">BugFix</h1>
           </div>
           <div className="details slide-in-blurred-bottom">
@@ -35,7 +38,10 @@ class Main extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={`/images/2.png`} alt="vvceLogo" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/2.png`}
+                      alt="vvceLogo"
+                    />
                   </a>
                 </li>
                 <li>
@@ -44,7 +50,10 @@ class Main extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={`/images/1.png`} alt="acmLogo" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/1.png`}
+                      alt="acmLogo"
+                    />
                   </a>
                 </li>
               </ul>
