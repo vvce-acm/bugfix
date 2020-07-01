@@ -120,13 +120,6 @@ button:focus {
   margin: 1.2em 0;
 }
 
-.logos {
-  position: relative;
-  bottom: 0;
-  animation: appear-delay 0.5s ease-in 1s 1 both normal;
-  margin-top: 2em;
-}
-
 @keyframes appear-delay {
   0% {
     opacity: 0;
@@ -145,21 +138,19 @@ button:focus {
   }
 }
 
+.logos > ul > li > a > img {
+  width: 5em;
+  padding: 0.5em;
+  background-color: #67dbc4;
+  border-radius: 20px;
+  margin-right: 0.4em;
+}
+
 .logos > ul {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   list-style: none;
-}
-
-.logos > ul > li > a > img {
-  width: 4em;
-  margin-right: 1em;
-  margin-bottom: 0.3em;
-  background-color: #3ac5a9;
-  padding: 0.3em;
-  border-radius: 12px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
