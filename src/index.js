@@ -1,7 +1,8 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Logos from "./Logos";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 class Main extends Component {
   constructor() {
@@ -9,30 +10,66 @@ class Main extends Component {
     this.state = {};
   }
 
+  componentDidMount() {
+    AOS.init({});
+  }
+
   render() {
     return (
-      <Fragment>
-        <div className="main">
-          <div className="bug slide-in-elliptic-top-fwd">
-            <img
-              src={`${process.env.PUBLIC_URL}/images/bug.gif`}
-              alt="bugImage"
-            />
-            <h1 className="slide-in-blurred-bottom">BugFix</h1>
+      <div className="container">
+        <div className="bug">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/better-bug.gif`}
+            alt="bug"
+          ></img>
+          <h1>BugFix</h1>
+        </div>
+        <div className="details">
+          <div className="desc">
+            <p>BugFix is the first of it's kind contest.</p>
+            <p>
+              You don't need to write code from scratch, it's already hosted for
+              you.
+            </p>
+            <p>
+              Just find the bugs in the code, squash them with your bug-free
+              code, and make the program bug free!
+            </p>
           </div>
-          <div className="details slide-in-blurred-bottom">
-            <h2>Squash bugs in code!</h2>
-            <a
-              href="https://forms.gle/nGuxmLWthdBdrhn7A"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="register">Register Now</button>
+          <a href="https://forms.gle/nGuxmLWthdBdrhn7A">
+            <button>Register Now</button>
+          </a>
+          <div className="event-details">
+            <div>
+              <label htmlFor="date">EVENT DATE</label>
+              <p id="date" className="detail">
+                11th of July
+              </p>
+            </div>
+            <div>
+              <label htmlFor="duration">EVENT DURATION</label>
+              <p className="detail" id="duration">
+                3 hours | 10am to 1pm
+              </p>
+            </div>
+          </div>
+          <div className="logos">
+            <p>Powered By</p>
+            <a href="https://www.vvce.ac.in">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/vvceLogo.png`}
+                alt="vvce"
+              ></img>
             </a>
-            <Logos />
+            <a href="https://www.vvce.ac.org">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/acmLogo.png`}
+                alt="acm"
+              ></img>
+            </a>
           </div>
         </div>
-      </Fragment>
+      </div>
     );
   }
 }
