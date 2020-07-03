@@ -95,6 +95,7 @@ html {
 
   .desc > p {
     margin: 0.5em 0;
+    font-weight: 600;
   }
 
   .event-details > div {
@@ -289,6 +290,7 @@ html {
 
   .desc > p {
     margin: 4em 1em;
+    font-weight: 600;
   }
 
   .event-details > div {
@@ -321,8 +323,7 @@ html {
     border-radius: 24px;
     background: #2f76e9;
     box-shadow: inset 13px 13px 25px #275fb8, inset -13px -13px 25px #3571cc;
-    padding: 0.7em 0.9em;
-    margin: 1.3em auto;
+    padding: 0.8em 1.5em;
   }
 
   .event-details {
