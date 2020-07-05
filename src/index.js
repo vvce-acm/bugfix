@@ -39,6 +39,10 @@ class Main extends Component {
               Just find the bugs in the code, squash them with your bug-free
               code, and make the program bug free!
             </p>
+            <p data-aos="fade-down">
+              The language used for this event is C because, right now, it's the
+              most prominent language in engineering students.
+            </p>
           </div>
           <div data-aos="zoom-in-up" className="event-details">
             <div>
