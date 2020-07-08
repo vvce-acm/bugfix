@@ -94,7 +94,7 @@ html {
   }
 
   .desc > p {
-    margin: 0.5em 0;
+    margin: 1em 0;
     font-weight: 600;
   }
 
@@ -355,4 +355,8 @@ html {
     text-transform: uppercase;
     width: 10em;
   }
+}
+
+.no-margin {
+  margin: 0.5em auto;
 }

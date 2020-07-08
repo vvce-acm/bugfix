@@ -12,7 +12,7 @@ class Main extends Component {
 
   componentDidMount() {
     AOS.init({
-      delay: 200,
+      delay: 100,
     });
   }
 
@@ -60,6 +60,14 @@ class Main extends Component {
           </div>
           <a href="https://forms.gle/nGuxmLWthdBdrhn7A">
             <button data-aos="zoom-in">Register Now</button>
+          </a>
+          <p data-aos="zoom-in" className="no-margin">
+            Join our WhatsApp Group
+          </p>
+          <a href="https://chat.whatsapp.com/CpbLFQUOIye6BZWdnMOsS9">
+            <button className="no-margin" data-aos="zoom-in">
+              WhatsApp Group
+            </button>
           </a>
         </div>
         <div className="logos">
