@@ -82,7 +82,7 @@ class Main extends Component {
               alt="vvce"
             ></img>
           </a>
-          <a href="https://www.vvce.ac.org">
+          <a href="https://www.vvce.acm.org">
             <img
               src={`${process.env.PUBLIC_URL}/images/acmLogo.png`}
               alt="acm"
