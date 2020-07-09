@@ -43,6 +43,10 @@ class Main extends Component {
               The language used for this event is C because, right now, it's the
               most prominent language in engineering students.
             </p>
+            <p data-aos="fade-down">
+              Participation e-certificate will be provided for all participants.
+              Winners will be facilitated.
+            </p>
           </div>
           <div data-aos="zoom-in-up" className="event-details">
             <div>
