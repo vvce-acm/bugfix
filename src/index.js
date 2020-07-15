@@ -62,15 +62,20 @@ class Main extends Component {
               </p>
             </div>
           </div>
-          <a href="https://forms.gle/nGuxmLWthdBdrhn7A">
-            <button data-aos="zoom-in">Register Now</button>
-          </a>
           <p data-aos="zoom-in" className="no-margin">
             Join our WhatsApp Group
           </p>
           <a href="https://chat.whatsapp.com/CpbLFQUOIye6BZWdnMOsS9">
             <button className="no-margin" data-aos="zoom-in">
               WhatsApp Group
+            </button>
+          </a>
+          <p data-aos="zoom-in" className="no-margin">
+            The main event is online!
+          </p>
+          <a href="https://forms.gle/mc5kU8zYTYFkxyzz5">
+            <button className="no-margin" data-aos="zoom-in">
+              THE MAIN EVENT!
             </button>
           </a>
         </div>
