@@ -28,10 +28,8 @@ class Main extends Component {
         </div>
         <div className="details slide-in-bck-right">
           <div className="desc">
-            <p data-aos="fade-right">
-              BugFix is the first of it's kind contest.
-            </p>
-            <p data-aos="fade-left">
+            <p data-aos="fade-up">BugFix is the first of it's kind contest.</p>
+            <p data-aos="fade-up">
               You don't need to write code from scratch, it's already hosted for
               you.
             </p>
@@ -39,7 +37,7 @@ class Main extends Component {
               Just find the bugs in the code, squash them with your bug-free
               code, and make the program bug free!
             </p>
-            <p data-aos="fade-down">
+            <p data-aos="fade-up">
               The language used for this event is C because, right now, it's the
               most prominent language in engineering students.
             </p>
@@ -62,22 +60,10 @@ class Main extends Component {
               </p>
             </div>
           </div>
-          <p data-aos="zoom-in" className="no-margin">
-            Join our WhatsApp Group
+          <p data-aos="zoom-in-up" className="no-margin">
+            The event was successful and we have 3 winners! Vaibhav DS, Arihant
+            Chawla and Uvais Mon.
           </p>
-          <a href="https://chat.whatsapp.com/CpbLFQUOIye6BZWdnMOsS9">
-            <button className="no-margin" data-aos="zoom-in">
-              WhatsApp Group
-            </button>
-          </a>
-          <p data-aos="zoom-in" className="no-margin">
-            The main event is online!
-          </p>
-          <a href="https://forms.gle/mc5kU8zYTYFkxyzz5">
-            <button className="no-margin" data-aos="zoom-in">
-              THE MAIN EVENT!
-            </button>
-          </a>
         </div>
         <div className="logos">
           <p>Powered By</p>

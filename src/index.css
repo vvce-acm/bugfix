@@ -22,6 +22,10 @@ html {
 }
 
 @media only screen and (min-width: 900px) {
+  * {
+    font-size: 0.97em;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
