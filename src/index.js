@@ -60,10 +60,29 @@ class Main extends Component {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <p data-aos="zoom-in-up" className="no-margin">
             The event was successful and we have 3 winners! Vaibhav DS, Arihant
             Chawla and Uvais Mon.
           </p>
+=======
+          <p data-aos="zoom-in" className="no-margin">
+            Join our WhatsApp Group
+          </p>
+          <a href="https://chat.whatsapp.com/CpbLFQUOIye6BZWdnMOsS9">
+            <button className="no-margin" data-aos="zoom-in">
+              WhatsApp Group
+            </button>
+          </a>
+          <p data-aos="zoom-in" className="no-margin">
+            The main event is online!
+          </p>
+          <a href="https://forms.gle/mc5kU8zYTYFkxyzz5">
+            <button className="no-margin" data-aos="zoom-in">
+              THE MAIN EVENT!
+            </button>
+          </a>
+>>>>>>> 1cb50909daa0f92599396b0e970010a1959105fb
         </div>
         <div className="logos">
           <p>Powered By</p>
